@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cel mai puternic canon</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+	<img src="logo.jpg">
+</div>
+		
+		<ul id="navbar">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Despre</a></li>
+			<li><a href="#">Instrucțiune</a></li>
+			<li><a href="#">Resurse utile</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		</div>
+
+		
+
+
+
+<p><a id="clicks">0</a></p>
+
+
+
+<script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+
+   <div id="buf">
+    <button type="button" class="btn btn-warning btn-lg" onClick="onClick()">Apasă-mă</button>
+    </div>  
+
+
+    
+</body>
+</html>
