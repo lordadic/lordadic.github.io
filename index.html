@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cel mai puternic canon</title>
+	<title>Canon99</title>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -9,15 +10,15 @@
 <body>
 	<div id="header">
 		<div id="logo">
-	<img src="logo.jpg">
+	<a href="index.html"><img src="logo.jpg"></a>
 </div>
 		
 		<ul id="navbar">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Despre</a></li>
-			<li><a href="#">Instrucțiune</a></li>
-			<li><a href="#">Resurse utile</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">Despre</a></li>
+			<li><a href="inst.html">Instrucțiune</a></li>
+			<li><a href="res.html">Resurse utile</a></li>
+			<li><a href="contact.html">Contact</a></li>
 		</ul>
 		</div>
 
@@ -25,7 +26,7 @@
 
 
 
-<p><a id="clicks">0</a></p>
+<p id="num"><a id="clicks">0</a></p>
 
 
 
@@ -40,6 +41,10 @@
    <div id="buf">
     <button type="button" class="btn btn-warning btn-lg" onClick="onClick()">Apasă-mă</button>
     </div>  
+
+<div id="reset">
+<a href="index.html"><button type="button" class="btn btn-success btn-sm">Reset</button> </a>
+</div>
 
 
     
